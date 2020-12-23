@@ -6,16 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lavine-es-jd" />
         <module name="lavine-es-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lavine-es-api" target="1.8" />
+      <module name="lavine-es-jd" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="lavine-es-api" options="-parameters" />
+      <module name="lavine-es-jd" options="-parameters" />
     </option>
   </component>
 </project>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lavine-es-api/lavine-es-api.iml" filepath="$PROJECT_DIR$/lavine-es-api/lavine-es-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lavine-es-jd/lavine-es-jd.iml" filepath="$PROJECT_DIR$/lavine-es-jd/lavine-es-jd.iml" />
     </modules>
   </component>
 </project>

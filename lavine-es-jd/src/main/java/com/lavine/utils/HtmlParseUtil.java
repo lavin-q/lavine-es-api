@@ -10,6 +10,7 @@ import java.net.URL;
 import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * @Description : hrml页面解析  //描述
@@ -19,12 +20,21 @@ import java.util.List;
 public class HtmlParseUtil {
 
     public static void main(String[] args) throws Exception {
-        List<Content> goods = getList("心理学");
+        /*List<Content> goods = getList("心理学");
         System.out.println(goods.size());
         for (Content content : goods) {
             System.out.println(content);
+        }*/
+        Random random = new Random();
+
+        for (int i = 0; i < 6; i++) {
+            int k = random.nextInt(32);
+            System.out.println(k);
         }
 
+        Random random1 = new Random();
+        int j = random1.nextInt(16);
+        System.out.println(j);
     }
 
     /**
